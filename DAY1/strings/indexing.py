@@ -18,3 +18,7 @@ print("-----------------------------------")
 print(s[9+2-1])
 print(s[len(s)-6])
 print(s[len('hi')+2])
+print("------------------------------------")
+# we can also write the indexing method in an form of
+print("hello every one"[4])
+print("hello every one"[len('hi')+2])
