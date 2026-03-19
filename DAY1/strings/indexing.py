@@ -12,3 +12,5 @@ s = "hello every one"
 # get the v, y,n from the string
 
 print(s[8])
+print(s[10])
+print(s[-2])
