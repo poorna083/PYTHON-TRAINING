@@ -17,7 +17,11 @@ print(s[:7])
 print(s[1:20])
 print(s[1:])
 
-
+print("------------------------------------------------------------------")
 # questions
-# s="python is a programming language" from this get *python,*gram,*guage
+# "python is a programming language" from this get *python,*gram,*guage
 
+s = "python is a programming language"
+print(s[:7])
+print(s[15:19])
+print(s[27:])
