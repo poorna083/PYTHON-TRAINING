@@ -14,3 +14,7 @@ s = "hello every one"
 print(s[8])
 print(s[10])
 print(s[-2])
+print("-----------------------------------")
+print(s[9+2-1])
+print(s[len(s)-6])
+print(s[len('hi')+2])
