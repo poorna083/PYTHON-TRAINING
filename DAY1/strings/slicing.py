@@ -16,3 +16,8 @@ print(s[3:7])
 print(s[:7])
 print(s[1:20])
 print(s[1:])
+
+
+# questions
+# s="python is a programming language" from this get *python,*gram,*guage
+
