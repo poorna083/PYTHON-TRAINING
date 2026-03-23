@@ -5,8 +5,8 @@
 # syntax:
 # "string".join(collection)
 
-# s="malayalam"
-# print("-".join(s))
+s="malayalam"
+print("-".join(s))
 
 
 # Q) convert the 'hello every one" into "one every hello"
