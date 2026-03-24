@@ -1,5 +1,5 @@
 # isalpha:
-    # it returns true if the given string (or) character contains only  alphabets
+# it returns true if the given string (or) character contains only  alphabets
 # it wont accept any argument
 #the return value is boolean
 
