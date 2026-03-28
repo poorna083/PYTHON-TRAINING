@@ -1,0 +1,10 @@
+tuple():
+    it is also a collection of both homogenius and heterogenious type of data
+    boundary of tuple is ()
+    tuple is an ordered datatype
+    tuple allows duplicate elements
+    tuple supports both indexing and slicing
+    tuple is an immutable datatype
+    the default value of tuple is ()
+
+    

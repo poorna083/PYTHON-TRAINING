@@ -1,68 +1,57 @@
 # Reverse the list using slicing
-# `nums = [10, 20, 30, 40, 50]`
-
+nums = [10, 20, 30, 40, 50]
+res=nums[::-1]
+print(res)
 # ---
 
 # Extract first 3 elements using slicing
-# `data = [5, 15, 25, 35, 45, 55]`
-
-# ---
-
+data = [5, 15, 25, 35, 45, 55]
+res = data[:3]
+print(res)
 # Extract last 4 elements
-# `values = [1, 2, 3, 4, 5, 6, 7]`
-
-# ---
-
+values = [1, 2, 3, 4, 5, 6, 7]
+res = values[-4:]
+print(res)
 # Get elements from index 2 to 5
-# `arr = [9, 8, 7, 6, 5, 4, 3]`
-
-# ---
-
+arr = [9, 8, 7, 6, 5, 4, 3]
+res=arr[2:6]
+print(res)
 # Skip first two elements and print rest
-# `items = [100, 200, 300, 400, 500]`
-
-# ---
-
+items = [100, 200, 300, 400, 500]
+res=items[2:5]
+print(res)
 # Print every second element
-# `numbers = [11, 22, 33, 44, 55, 66, 77]`
-
-# ---
-
+numbers = [11, 22, 33, 44, 55, 66, 77]
+res=numbers[::2]
+print(res)
 # Print elements in reverse order with step 2
-# `seq = [1, 2, 3, 4, 5, 6, 7, 8]`
-
-# ---
-
+seq = [1, 2, 3, 4, 5, 6, 7, 8]
+res=seq[::-2]
+print(res)
 # Extract middle 3 elements
-# `elements = [10, 20, 30, 40, 50, 60, 70]`
-
-# ---
-
+elements = [10, 20, 30, 40, 50, 60, 70]
+res=elements[2:5]
+print(res)
 # Remove first and last element using slicing
-# `sample = [5, 10, 15, 20, 25]`
-
-# ---
-
+sample = [5, 10, 15, 20, 25]
+res=sample[1:len(sample)-1]
+print(res)
 # Copy a list using slicing
-# `copy_list = [2, 4, 6, 8, 10]`
-
-# ---
-
+copy_list = [2, 4, 6, 8, 10]
+res=copy_list[::]
+print(res)
 # Extract elements at even index positions
-# `even_data = [3, 6, 9, 12, 15, 18]`
-
-# ---
-
+even_data = [3, 6, 9, 12, 15, 18]
+res=even_data[::2]
+print(res)
 # Extract elements at odd index positions
-# `odd_data = [7, 14, 21, 28, 35, 42]`
-
-# ---
-
+odd_data = [7, 14, 21, 28, 35, 42]
+res=odd_data[1::2]
+print(res)
 # Reverse only first 4 elements
-# `alpha = [1, 2, 3, 4, 5, 6]`
-
-# ---
-
+alpha = [1, 2, 3, 4, 5, 6]
+res=alpha[:4][::-1]
+print(res)
 # Reverse only last 3 elements
 # `beta = [10, 20, 30, 40, 50, 60]`
 
