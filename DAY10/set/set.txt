@@ -1,0 +1,7 @@
+it is a collection of both homogenius and heterogenius type of data
+boundary of set is curly braces
+set is a mutable datatype but values which we are storing inside a set must be immutable
+set is an unordered datatype
+set does not allows duplicate elements
+set doed not allows indexing and slicing
+default value of set is "set()"
