@@ -1,0 +1,10 @@
+dictionary:
+* it is a collection of key and pair
+* boundary of dictionary is curlybraces
+* key and value are saperated by colan(:) and keyvalue pair are saperated by camma(,)
+* key must be immutable but values can be any python valid datatypes
+* duplicate keys are not allowed but duplicate values are allowed
+* dictionary is a ordered datatype
+* dictionary is a mutable datatype
+* dictionary doent support indexing and slicing
+* default value of dictionary is {}
