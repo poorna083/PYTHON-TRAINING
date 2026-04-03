@@ -1,0 +1,8 @@
+copy items:
+    it is the process of copying the data from one variable to another
+    in python we are having three types of copy methods.
+      * General copy (=)
+      * Shallow copy (copy)
+      * Deep copy (deep copy)
+
+
