@@ -1,0 +1,101 @@
+In Python, **operators** are special symbols used to perform operations on variables and values.
+
+Here are the main types of operators in Python:
+
+---
+
+### 🔢 1. Arithmetic Operators
+
+Used for mathematical operations.
+
+| Operator | Meaning             | Example       |
+| -------- | ------------------- | ------------- |
+| `+`      | Addition            | `5 + 3 = 8`   |
+| `-`      | Subtraction         | `5 - 3 = 2`   |
+| `*`      | Multiplication      | `5 * 3 = 15`  |
+| `/`      | Division            | `5 / 2 = 2.5` |
+| `//`     | Floor Division      | `5 // 2 = 2`  |
+| `%`      | Modulus (remainder) | `5 % 2 = 1`   |
+| `**`     | Exponent            | `2 ** 3 = 8`  |
+
+---
+
+### 🔍 2. Comparison (Relational) Operators
+
+Used to compare values (returns `True` or `False`).
+
+| Operator | Meaning          |
+| -------- | ---------------- |
+| `==`     | Equal to         |
+| `!=`     | Not equal to     |
+| `>`      | Greater than     |
+| `<`      | Less than        |
+| `>=`     | Greater or equal |
+| `<=`     | Less or equal    |
+
+---
+
+### 🔗 3. Logical Operators
+
+Used to combine conditions.
+
+| Operator | Meaning                      |
+| -------- | ---------------------------- |
+| `and`    | True if both are true        |
+| `or`     | True if at least one is true |
+| `not`    | Reverses the result          |
+
+---
+
+### 📦 4. Assignment Operators
+
+Used to assign values to variables.
+
+| Operator | Example  | Meaning      |
+| -------- | -------- | ------------ |
+| `=`      | `x = 5`  | Assign value |
+| `+=`     | `x += 3` | x = x + 3    |
+| `-=`     | `x -= 3` | x = x - 3    |
+| `*=`     | `x *= 3` | x = x * 3    |
+| `/=`     | `x /= 3` | x = x / 3    |
+
+---
+
+### 🧠 5. Bitwise Operators
+
+Work on binary values.
+
+| Operator | Meaning     |    |
+| -------- | ----------- | -- |
+| `&`      | AND         |    |
+|  '|'     | OR          |
+| `^`      | XOR         |    |
+| `~`      | NOT         |    |
+| `<<`     | Left shift  |    |
+| `>>`     | Right shift |    |
+
+---
+
+### 📚 6. Membership Operators
+
+Used to test if a value exists in a sequence.
+
+| Operator | Example              |
+| -------- | -------------------- |
+| `in`     | `'a' in 'apple'`     |
+| `not in` | `'b' not in 'apple'` |
+
+---
+
+### 🆔 7. Identity Operators
+
+Used to compare memory locations.
+
+| Operator | Meaning         |
+| -------- | --------------- |
+| `is`     | Same object     |
+| `is not` | Not same object |
+
+---
+
+If you want, I can give you **practice questions** or **real code examples** for each
