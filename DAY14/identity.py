@@ -1,7 +1,6 @@
 ## 🔹 Identity Operators in Python
 
 
-
 ## ✅ Types of Identity Operators
 
 | Operator | Meaning                                            |
