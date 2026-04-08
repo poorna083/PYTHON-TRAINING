@@ -1,0 +1,9 @@
+it is the process of adding (or) combining variables along with some extra string is known a strong 
+formatting 
+
+it is classifiedd into three types
+  1. string formatting with the help of percentage(%)
+  2. string formatting with the help of formatt method, format()
+  3. string formatting with the help of f'string
+
+  
