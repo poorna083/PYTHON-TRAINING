@@ -1,0 +1,17 @@
+while loop:
+    it is used to execute sum set of instructions more than one time
+    for the while loop the decleration of looping variable is manadatory
+    for the while loop updation is manadatory
+
+
+    note:
+        whenever we dont know number of iterations , we will use while loop
+
+        syntax:
+        variable name = value
+        while condition:
+                 stmt1
+                 stmt2
+                 .
+                 .
+                 .updation(increment/decrement)
