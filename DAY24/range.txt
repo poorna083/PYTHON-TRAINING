@@ -1,0 +1,8 @@
+RANGE():
+   *RANGE() is a inbuilt function which is used to return integer values
+based on startvalue,stopvalue,stepvalue
+
+syntax:
+    range([startvalue],stopvalue,[stepvalue])
+
+    * By default startvalue will be "zero", stepvalue will be +1
