@@ -1,0 +1,13 @@
+for loop:
+    it is used to execute sum set of instructions more than one time
+
+    for the for loop declaration of looping variable is not required 
+
+    In for loop updation will happpen automatically
+
+    # In for loop We used Range,Collection,Enumerate,Zip,Zip_Longest,reversed,sorted
+
+    Syntax:
+        for Variable_name in range / Collection / Enumerate/Zip/Zip_Longest/reversed/sorted
+
+        
