@@ -76,15 +76,14 @@ s='apple mango apple orange'
 # CONDITIONS:
 # MINMUM 8 CHARACTERS
 # (1 UPPERCASE , 1LOWERCASE , 1 DIGIT , 1 SPECIAL CHARACTER) ARE MANDATORY
-
+print("""ENTER PASSWORD:
+      1 UPPERCASE , 1LOWERCASE , 1 DIGIT , 1 SPECIAL CHARACTER ARE MANDATORY""")
 password = input("Enter the password: ")
 
 has_upper = False
 has_lower = False
 has_digit = False
 has_special = False
-
-special_chars = "!@#$%^&*()-_=+[]{}|;:'\",.<>?/"
 
 if len(password) >= 8:
     for i in password:
@@ -94,7 +93,7 @@ if len(password) >= 8:
             has_lower = True
         elif i.isdigit():
             has_digit = True
-        elif i in special_chars:
+        elif i in "!@#$%^&*()-_=+[]{}|;:'\",.<>?/":
             has_special = True
 
     if has_upper and has_lower and has_digit and has_special:

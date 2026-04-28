@@ -1,0 +1,12 @@
+loop control statements:
+   * break:
+            it is a keyword which is used to stop (or) terminate the loop
+    
+    *continue:
+            it is a keyword which is used to skip the current iteration and continue 
+            with the next iteration
+        
+    *pass:
+            it is a keyword which is used to specify the given block is empty
+
+        
