@@ -1,0 +1,6 @@
+looping statement and else block:
+        *whenever looping statement complete its all the iterations 
+    else block will be executed
+
+        *whenever looping statement terminated by using break keyword else 
+    block will be executed
