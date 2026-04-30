@@ -1,0 +1,8 @@
+enemurate:
+        it is used to traverse through a collection and return interger value
+    along with the elements present in a collection.
+
+    by default integer value will start from 0
+
+    syntax:
+        enemurate(collection,[start= ])
