@@ -1,0 +1,10 @@
+zip:
+    *it iss a inbuilt class which is used to traverse through more than one collection at a time
+
+    *zip will always traverse through least length collection times
+
+
+    syntax:
+    zip(collection1,collection2,collection3...........)
+
+    
