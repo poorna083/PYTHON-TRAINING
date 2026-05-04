@@ -1,0 +1,14 @@
+zip_longest():
+        *it is a function which is traverse through more than one collection at a time
+
+        *zip_longest() will always traverse through the highest length collection times
+
+        *zip_longest() present in the module called itertools
+
+
+        syntax:
+                zip_longest(collection1,collection2,...........[fillvalue=])
+
+        *by default fillvalue will be null
+
+        
