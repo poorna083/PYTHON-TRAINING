@@ -44,6 +44,7 @@ for i in range(len(lst)):
         j -= 1
 
 print(lst)
-                            
+
+
 
 
