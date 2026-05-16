@@ -1,0 +1,44 @@
+comprehension:
+        comprehension is an eligent way of creating a list,set,dictionary
+
+comprehension is classified into three types. they are:
+     *list comprehension
+     *set comprehension
+     *dictionary comprehension
+
+
+syntax:
+
+
+for list:
+    only for loop:
+        [expression  for v_n in range/collection]
+
+    for loop and if:
+        [expression  for v_n in range/collection if condition]
+
+    for loop if and else:
+        [expression if condition else expression for v_n in range/collection]
+
+    
+
+for set:
+    only for loop:
+        {expression  for v_n in range/collection}
+
+    for loop and if:
+        {expression  for v_n in range/collection if condition}
+
+    for loop if and else:
+        {expression if condition else expression for v_n in range/collection}
+
+
+for dictionary:
+    only for loop:
+        {key:value  for v_n in range/collection}
+
+    for loop and if:
+        {key:value  for v_n in range/collection if condition}
+
+    for loop if and else:
+        {key:value if condition else value for v_n in range/collection}

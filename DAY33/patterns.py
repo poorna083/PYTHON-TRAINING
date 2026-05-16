@@ -1,3 +1,4 @@
+n=int(input("ENter the number :"))
 # 1. Butterfly Pattern
 # *      *
 # **    **
@@ -7,7 +8,28 @@
 # ***  ***
 # **    **
 # *      *
+# for i in range(1,n+1):
+#     print('*'*i,end='')
+#     print(' '*(n-i)*2,end='')
+#     print('*'*i)
+# for i in range(n,0,-1):
+#     print('*'*i,end='')
+#     print(' '*(n-i)*2,end='')
+#     print('*'*i)
 
+
+# output:
+# ENter the number :5
+# *        *
+# **      **
+# ***    ***
+# ****  ****
+# **********
+# **********
+# ****  ****
+# ***    ***
+# **      **
+# *        *
 # 2. Hollow Diamond
 #     *
 #    * *
@@ -18,6 +40,32 @@
 #   *   *
 #    * *
 #     *
+for i in range(1,n+1):
+    print(' '*(n-i),end='')
+    print('*',end='')
+    print(' '*(i-1)*2,end='')
+    print('*')
+for i in range(n,0,-1):
+    print(' '*(n-i),end='')
+    print('*',end='')
+    print(' '*(i-1)*2,end='')
+    print('*')
+
+# ENter the number :7
+#       **
+#      *  *
+#     *    *
+#    *      *
+#   *        *
+#  *          *
+# *            *
+# *            *
+#  *          *
+#   *        *
+#    *      *
+#     *    *
+#      *  *
+#       **
 
 # 3. Number Pyramid Palindrome
 #         1

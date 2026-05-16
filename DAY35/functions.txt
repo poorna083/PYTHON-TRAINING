@@ -1,0 +1,39 @@
+functions:
+        *it is a block of code (or) set of instructions which are used to 
+    perform some specific task whenever we call
+
+        *functions are classified into two types.They are:
+                *inbuilt
+                *user defined
+
+*in built functions can be accessed in any operating system but user defined 
+functions are restricted to single opreating system only
+
+*we will create the functions whenever we wnat to reuse the code
+
+
+
+user_defined_functions:
+    user_defined_functions are created with the help of def keyword
+
+    functions will execute whenever we call
+
+
+def function_name([paramaters]):    #function declearing
+    -------------------------
+    | set of instructions    |    function body/implementation
+    -------------------------
+
+
+function_name(arguments)       #function calling
+
+
+
+
+
+        (3)
+        |
+def greet()------------------------>(1)
+    print('hello everyone')-------->(4)
+-------->(5)
+greet()---->(2)
