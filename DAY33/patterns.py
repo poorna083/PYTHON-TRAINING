@@ -40,40 +40,57 @@ n=int(input("ENter the number :"))
 #   *   *
 #    * *
 #     *
-for i in range(1,n+1):
-    print(' '*(n-i),end='')
-    print('*',end='')
-    print(' '*(i-1)*2,end='')
-    print('*')
-for i in range(n,0,-1):
-    print(' '*(n-i),end='')
-    print('*',end='')
-    print(' '*(i-1)*2,end='')
-    print('*')
 
-# ENter the number :7
-#       **
-#      *  *
-#     *    *
-#    *      *
-#   *        *
-#  *          *
-# *            *
-# *            *
-#  *          *
-#   *        *
-#    *      *
-#     *    *
-#      *  *
-#       **
+# for i in range(1, n+1):
+#     print(' '*(n-i), end='')
 
+#     if i == 1:
+#         print('*')
+#     else:
+#         print('*', end='')
+#         print(' '*(2*i-3), end='')
+#         print('*')
+
+# for i in range(n-1, 0, -1):
+#     print(' '*(n-i), end='')
+
+#     if i == 1:
+#         print('*')
+#     else:
+#         print('*', end='')
+#         print(' '*(2*i-3), end='')
+#         print('*')
+
+# output:
+# ENter the number :5
+#     *
+#    * *
+#   *   *
+#  *     *
+# *       *
+#  *     *
+#   *   *
+#    * *
+    #   *
 # 3. Number Pyramid Palindrome
 #         1
 #       2 1 2
 #     3 2 1 2 3
 #   4 3 2 1 2 3 4
 # 5 4 3 2 1 2 3 4 5
+# for i in range(1, n+1):
+#     # spaces
+#     print(' '*(n-i), end='')
 
+#     # decreasing part
+#     for j in range(i, 0, -1):
+#         print(j, end=' ')
+
+#     # increasing part
+#     for j in range(2, i+1):
+#         print(j, end=' ')
+
+#     print()
 # 4. Zig-Zag Pattern
 # *   *   *
 #  * * * * 
@@ -91,6 +108,14 @@ for i in range(n,0,-1):
 #     1   2   1
 #   1   3   3   1
 # 1   4   6   4   1
+# from math import factorial
+# for i in range(n):
+#     print(' ' * (n - i), end=' ')
+#     for j in range(i + 1):
+#         ncr = factorial(i) // (factorial(j) * factorial(i - j))
+#         print(ncr, end=' ')
+        
+#     print()
 
 # 7. Sandglass Pattern
 # *********
