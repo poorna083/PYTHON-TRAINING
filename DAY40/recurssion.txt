@@ -1,0 +1,16 @@
+* it is the process of calling a function by itself is known as recurssion
+
+*in recurssion two cases are mandatory.They are:
+    1.Base recurssion
+    2.recurssion case
+
+*by default the maximum depth of recurssion is 1000 times
+
+Syntax:
+def function_name(paramaters):
+    if condtion:    #BASE CASE
+        stmt
+    [else]:
+        return     #RECURSSION CASE
+    
+
