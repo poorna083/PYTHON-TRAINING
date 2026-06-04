@@ -1,0 +1,73 @@
+OOPS:
+    *OOPS strands for object oriented programiing system
+    
+    *OOPS are used to organize the data in a structured manner so that 
+    we can able to read (or) reuse the code easily
+
+    *python supports 100% of OOPS
+
+    *in OOPS we are having six components. They are:
+            1.class
+            2.object
+            3.inheritance
+            4.polymorphism
+            5.abstraction
+            6.encapsulation
+
+    *inheritance,polymorphism,abstraction and encapsulation are the four pillers of OOPS
+
+    CLASS:
+        *it is a blueprint (or) a template which represent how the object has to behave
+        
+    OBJECT:
+        *it is used an instance of a class (or) it is a realtime entity which reprents the class
+
+        *we can create more that on object to a single class all the objects are independent
+
+                            |====================================|
+                            |class_name.variable_name            |
+                            |object_name.variable_name           |
+                            |====================================|
+
+                            =================================
+                            |to access the function:         |
+                            |object_name.function_name       |
+                            ================================
+
+
+syntax:
+class class_name:
+    stmt
+
+object_name1=class_name()
+object_name2=class_name()
+
+Types of states in python:-
+class A:
+    a=10             generic
+            }states/
+                   \          }clustor __init__()
+                    specific
+    b=20
+    def demo(self):   behaviour
+        pass
+
+
+types of states in python:
+    *In python we are having two types of state. They are:
+        (i)generic state
+        (ii)specififc state
+
+(i)generic state:
+        this are the variable which are common for all the objects
+
+(ii)specific state:
+        this are the variable which are differnt from one object to another
+
+__init__()/constructor method:-
+-------------------------------
+*it is the magic method (or) dunder method which is used to the specific variable
+
+init method will be executed at the time of creation
+
+
